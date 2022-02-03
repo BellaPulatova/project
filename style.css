@@ -162,3 +162,102 @@ span{
     margin-top: 56px;
     cursor: pointer;
 }
+.photosection2 {
+    margin-top: 165px;
+    background-color: #F8FDFE;
+    padding-bottom: 76px;
+}
+.photosection2_left{
+    flex: 1;
+    margin-right: 51px;
+}
+.photosection2_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.photosection2_rightwrap{
+    width: 90%;
+    margin: auto;
+    background-color: #ffff;
+    display: flex;
+    padding: 20px;
+}
+.phsection2_icon{
+    margin-right: 29px;
+}
+.phsection2_texttitle{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    margin-bottom: 6px;
+}
+.phsection2_text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+}
+.gallerysection{
+    background: #fff;
+}
+.gallery_centeredtext{
+    margin-top: 120px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.input_wrapper{
+    margin: 120px;
+    width: 80%;
+    height: 251px;
+    background: #19BCE4;
+    border-radius: 24px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.subsribe_input{
+    width: 100%;
+    height: 64px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 24px;
+}
+.input_typingwrap{
+    position: relative;
+    width: 70%;
+    height: 64px;
+    margin-top: 40px;
+}
+.input_button{
+    background: #19BCE4;
+    border-radius: 6px;
+    color: #ffff;
+    border: none;
+    width: 120px;
+    height: 48px;
+    position:absolute;
+    right: 10px;
+    top:7px;
+}
+
+
