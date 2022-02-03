@@ -106,7 +106,7 @@ span{
 .photosection_left{
     margin-right: 80px;
 }
-.photosection_title{
+.global_title{
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -170,6 +170,7 @@ span{
 .photosection2_left{
     flex: 1;
     margin-right: 51px;
+    margin-top: 68px;
 }
 .photosection2_right{
     flex: 1;
@@ -211,7 +212,66 @@ span{
     margin-top: 120px;
     text-align: center;
 }
+.gallery_container_cities{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+.gallery_city_left{
+    flex: 1;
+    padding-right: 25px;
+}
+.gallery_city_right1{
+    flex: 1;
+    padding-right: 25px;
+}
+.gallery_city_japan{
+    margin-bottom: 25px;
+}
+.gallery_city_right2{
+    flex: 1;
+}
+.gallery_city_malaysia{
+    margin-bottom: 25px;
+}
+.whosecton_wrap{
+    display: flex;
+    background-color:#F8FDFE;
+    margin-top: 120px;
+}
+.who_left{
+    flex: 1;
+    padding-left: 135px;
+    padding-top: 70px;
+}
+.who_right{
+    flex: 1;
+}
+.whosection_text{
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+    margin-top: 20px;
+}
+.whosection_button{
+    background-color: #19BCE4;
+    width: 190px;
+    height: 56px;
+    color: #FFFFFF;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin-top: 40px;
 
+}
+.peoplesection_wrap{
+    background-color: #FFF8F7;
+    margin-top: 120px;
+}
+.people_centeredtext{
+    text-align: center;
+}
 
 
 
