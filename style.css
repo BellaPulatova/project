@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -46,45 +46,59 @@
 span{
     padding-left: 6px;
 }
-.infosection{
+.main{
+    width: 100%;
+    height: 700px;
+    background-image: url(./assets/img/bg.png);
+    background-size: cover; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    position: absolute;
+    top:0;
+    left: 0;
+    color: #FFFFFF;
     width: 100%;
     height: 100%;
-    background-image: url(./assets/img/bg.png);
-    padding-bottom: 140px;
-}
-.title{
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 76px;
-    color: #ffff;
-    text-align: center;
     padding-top: 185px;
+    font-weight: 700;
+    font-size: 64px;
+    background-color: rgba(0, 0, 0, 0.56);
 }
-.description{
-    text-align: center;
-    padding-top: 24px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
+.header_text{
+    position: absolute;
+    top: 100px;
+    padding-top: 180px;
+    color: #FFFFFF;
+    font-weight: 300;
     font-size: 20px;
     line-height: 30px;
-    color: #FFFFFF;
+    text-align: center;
+    padding-left: 330px;
+    width: 70%;
 }
 .info{
     height:118px;
     background-color: #FFFFFF;
-    margin-top: 97px;
+    margin-top: 200px;
     display:flex;
-    padding:24px;
+    padding:20px;
+    width: 90%;
+    margin-left:5%;
+
 }
 .item{
     flex:1;
-    display: flex;
     height:70px;
     margin-right: 20px;
     border: 0.5px solid rgba(25, 188, 228, 0.3);
+    align-items: flex-start;
+    padding-left:20px;
 }
 .item4{
     margin:0;
@@ -99,10 +113,9 @@ span{
 .item_style{
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    padding-left: 33px;
-    line-height: 24px;
-}
+    line-height: 20px;
+
+} 
 .photosection{
     margin-top: 120px;
     
@@ -112,6 +125,13 @@ span{
 }
 .photosection_left{
     margin-right: 80px;
+    position: relative;
+}
+.sofa{
+    position: absolute;
+    right: -25px;
+    bottom:-23px;
+
 }
 .global_title{
     font-family: Rubik;
@@ -178,7 +198,9 @@ span{
     flex: 1;
     margin-right: 51px;
     margin-top: 68px;
+
 }
+
 .photosection2_right{
     flex: 1;
     display: flex;
@@ -221,25 +243,42 @@ span{
 }
 .gallery_container_cities{
     display: flex;
-    box-sizing: border-box;
-    justify-content: space-evenly;
 }
 .gallery_city_left{
     flex: 1;
-    padding-right: 25px;
+    background-image: url(./assets/img/bangladesh.png);
+    Width:370px;
+    Height:540px;
+    margin-right: 25px;
 }
 .gallery_city_right1{
     flex: 1;
-    padding-right: 25px;
+    margin-right: 25px;
 }
 .gallery_city_japan{
     margin-bottom: 25px;
+    background-image: url(./assets/img/japan.png);
+    width: 370px;
+    height: 255px;
+}
+.gallery_city_london{
+    background-image: url(./assets/img/london.png);
+    width: 370px;
+    height: 255px;
 }
 .gallery_city_right2{
     flex: 1;
 }
 .gallery_city_malaysia{
     margin-bottom: 25px;
+    background-image: url(./assets/img/malaysia.png);
+    width: 370px;
+    height: 255px;
+}
+.gallery_city_india{
+    background-image: url(./assets/img/india.png);
+    width: 370px;
+    height: 255px;
 }
 .whosecton_wrap{
     display: flex;
@@ -275,12 +314,43 @@ span{
 .peoplesection_wrap{
     background-color: #FFF8F7;
     margin-top: 120px;
+    margin-bottom: 340px;
+    width: 100%;
+    padding-bottom: 97px;
 }
 .people_centeredtext{
     text-align: center;
+    padding-top: 96px;
 }
-/* continue */
-
+.man_comment{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 38px;
+    padding-left: 39px;
+}
+.person1_comment{
+    background-color: #FFFFFF;
+    width: 370px;
+    height: 280px;
+    text-align: center;
+    padding-top: 81px;
+    line-height: 30px;
+}
+.peoplesection_person_wrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+.peoplesection_person{
+    position: relative;
+    padding-top: 200px;
+}
+.man_photo{
+    position: absolute;
+    top: -90px;
+    right: 110px;
+    padding-top: 200px;
+}
 .input_wrapper{
     margin: 120px;
     width: 80%;
@@ -292,14 +362,17 @@ span{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: absolute; 
+    top: -300px;
 }
-.subsribe_input{
+.subscribe_input{
     width: 100%;
     height: 64px;
     border-radius: 6px;
     border: none;
     outline: none;
     padding-left: 24px;
+    font-weight: 300;
 }
 .input_typingwrap{
     position: relative;
@@ -326,12 +399,25 @@ span{
     padding-left: 135px;
     padding-top: 190px;
     padding-bottom: 74px;
+    position: relative;
 
 }
 .footer_building{
     flex: 2;
     display: flex;
     padding-right: 80px;
+}
+.footer_building_title{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.footer_building_desc{
+    font-size: 12px;
+    line-height: 27px;
+    color: #555555;
+    margin-top: 26px;
+    margin-bottom: 40px;
+
 }
 .footer_home{
     flex: 1;
@@ -363,18 +449,7 @@ li{
     color: #222222;
 
 }
-.footer_building_title{
-    margin-left: 10px;
-    margin-top: 15px;
-}
-.footer_building_desc{
-    font-size: 12px;
-    line-height: 27px;
-    color: #555555;
-    margin-top: 26px;
-    margin-bottom: 40px;
 
-}
 .footer_contact_icon{
     width: 16px; height: 16px;
 }
