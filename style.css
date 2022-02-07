@@ -250,6 +250,19 @@ span{
     Width:370px;
     Height:540px;
     margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.city_text{
+    width: 200px;
+    height: 88px;
+    background: rgba(0, 96, 119, 0.02);
+    backdrop-filter: blur( 6px );
+    color: white;
+    padding-top:12px ;
 }
 .gallery_city_right1{
     flex: 1;
@@ -260,11 +273,21 @@ span{
     background-image: url(./assets/img/japan.png);
     width: 370px;
     height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    padding-bottom: 24px;
 }
 .gallery_city_london{
     background-image: url(./assets/img/london.png);
     width: 370px;
     height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    padding-bottom: 24px;
 }
 .gallery_city_right2{
     flex: 1;
@@ -274,11 +297,21 @@ span{
     background-image: url(./assets/img/malaysia.png);
     width: 370px;
     height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    padding-bottom: 24px;
 }
 .gallery_city_india{
     background-image: url(./assets/img/india.png);
     width: 370px;
     height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    padding-bottom: 24px;
 }
 .whosecton_wrap{
     display: flex;
